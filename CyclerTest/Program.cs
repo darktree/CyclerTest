@@ -10,6 +10,10 @@ namespace CyclerTest
     {
         static void Main(string[] args)
         {
+            List<int> list = new List<int> { 1, 2, 3 };
+            Cycler cycler = new Cycler(list);
+            Console.WriteLine(cycler.DoRangeStep(8));
+            Console.ReadLine();
         }
     }
 }
